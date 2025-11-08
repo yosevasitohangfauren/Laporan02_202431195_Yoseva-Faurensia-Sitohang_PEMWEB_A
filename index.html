@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LAPORAN PRAKTIKUM</title>
+    <link rel="stylesheet" href="styl.css">
+     <script src="styl.js" defer></script>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="main-content">
+            <h1>LAPORAN PRAKTIKUM</h1>
+            <h2>Yoseva Faurensia Sitohang | 202431195</h2>
+
+            <h3 class="toggle-header">SOAL A: Mengapa menggunakan CSS dan JavaScript?</h3>
+            <div class="content">
+                <p><strong>CSS</strong> digunakan untuk mengatur presentasi (tampilan dan gaya visual), memisahkan gaya dari struktur HTML untuk keterawatan dan konsistensi yang lebih baik. <strong>JavaScript</strong> digunakan untuk menambahkan interaktivitas, perilaku dinamis, dan memanipulasi elemen di halaman (DOM).</p>
+            </div>
+
+            <h3 class="toggle-header">SOAL B: Konsep dan Tujuan Responsive Web Design (RWD)</h3>
+            <div class="content">
+                <p><strong>Konsep RWD</strong> adalah membuat situs web beradaptasi secara mulus dengan berbagai ukuran layar (desktop, tablet, smartphone) menggunakan teknik seperti *media queries*, *flexible grids*, dan *flexible images*. <strong>Tujuan utamanya</strong> adalah memberikan pengalaman pengguna yang optimal dan konsisten di semua perangkat.</p>
+            </div>
+
+            <h3 class="toggle-header">SOAL C: Kombinasi CSS, JavaScript, dan RWD</h3>
+            <div class="content">
+                <p>Ketiganya saling melengkapi: <strong>HTML</strong> menyediakan struktur; <strong>CSS + RWD</strong> memastikan struktur tersebut memiliki tampilan yang adaptif dan rapi di berbagai ukuran layar melalui *media queries* dan tata letak fleksibel (Flexbox/Grid); <strong>JavaScript</strong> menambahkan interaksi dinamis (seperti fitur sembunyikan/tampilkan konten ini dan pengubahan mode) yang tetap berfungsi di lingkungan responsif yang diciptakan oleh RWD.</p>
+            </div>
+        </div>
+
+        <div class="sidebar">
+            <h3>Catatan Tambahan</h3>
+            <p>Ini adalah area pelengkap yang diaktifkan oleh CSS Grid. Tujuannya adalah memecah informasi agar tampilan desktop tidak terlalu padat dan terlihat lebih profesional.</p>
+            <hr>
+            <h4>Cara Kerjanya di Balik Layar:</h4>
+            <ul>
+                <li>Flexbox/Grid: Digunakan untuk membagi halaman ini menjadi dua kolom pada layar lebar.</li>
+                <li>Media Query: Aturan cerdas yang mengubah tata letak dari dua kolom menjadi satu kolom di layar kecil.</li>
+            </ul>
+        </div>
+    </div>
+    
+    <div class="mode-switcher">
+        <button id="modeSwitch">Ganti ke Mode Berantakan</button>
+    </div>
+</body>
+</html>
